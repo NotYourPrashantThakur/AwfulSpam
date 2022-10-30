@@ -150,7 +150,7 @@ async def ping(e):
 @Riz39.on(events.NewMessage(incoming=True, pattern=r"\%salive" % hl))
 @Riz40.on(events.NewMessage(incoming=True, pattern=r"\%salive" % hl))
 async def alive(e):
-if e.sender_id in SUDO_USERS or e.sender_id in DEV:
+    if e.sender_id in DEV:
         if e.reply_to_msg_id:
             fuk = await e.respond("╭───────────•\n│[🤖]  ɪ ᴀᴍ sᴛɪʟʟ ᴀʟɪᴠᴇ !!\n│ᴘɪɴɢ : `0.002`\n╰───────────•", reply_to=e.reply_to_msg_id)
         else:
