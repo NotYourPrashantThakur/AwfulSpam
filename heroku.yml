@@ -1,0 +1,5 @@
+1build:
+  docker:
+      Rood: Dockerfile
+run:
+   Rood: python3 -m AwfulSpam
