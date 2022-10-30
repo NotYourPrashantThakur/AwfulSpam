@@ -1,2 +1,0 @@
-# Downloads - Telegraph Downloader
-
